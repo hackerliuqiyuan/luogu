@@ -4,8 +4,8 @@ int l, r;
 bool check1(int x)
 {
 	if((1000 <= x && x <= 9999) || (100000 <= x && x <= 999999)) {
-        return 0;
-    }
+        	return 0;
+    	}
 	return 1;
 } 
 bool check2(int x)
